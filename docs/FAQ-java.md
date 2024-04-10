@@ -1,6 +1,6 @@
 # FAQ - Java (preguntas frecuentes)
 
-- ¿Cómo puedo instalar lo necesario para comensar?
+- ¿Cómo puedo instalar lo necesario para comenzar?
 
   Puedes consultar la siguiente
   [Guía sobre Java setup](https://github.com/Laboratoria/java-setup)
