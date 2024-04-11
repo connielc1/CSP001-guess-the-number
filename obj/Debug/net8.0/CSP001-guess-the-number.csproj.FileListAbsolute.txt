@@ -1,0 +1,15 @@
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\obj\Debug\net8.0\CSP001-guess-the-number.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\obj\Debug\net8.0\CSP001-guess-the-number.AssemblyInfoInputs.cache
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\obj\Debug\net8.0\CSP001-guess-the-number.AssemblyInfo.cs
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\obj\Debug\net8.0\CSP001-guess-the-number.csproj.CoreCompileInputs.cache
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\obj\Debug\net8.0\CSP001-guess-the-number.sourcelink.json
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\bin\Debug\net8.0\CSP001-guess-the-number.exe
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\bin\Debug\net8.0\CSP001-guess-the-number.deps.json
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\bin\Debug\net8.0\CSP001-guess-the-number.runtimeconfig.json
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\bin\Debug\net8.0\CSP001-guess-the-number.dll
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\bin\Debug\net8.0\CSP001-guess-the-number.pdb
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\obj\Debug\net8.0\CSP001-guess-the-number.dll
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\obj\Debug\net8.0\refint\CSP001-guess-the-number.dll
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\obj\Debug\net8.0\CSP001-guess-the-number.pdb
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\obj\Debug\net8.0\CSP001-guess-the-number.genruntimeconfig.cache
+C:\Users\liz-l\Desktop\Games\programación\proyectos_front_end\CSP001-guess-the-number\obj\Debug\net8.0\ref\CSP001-guess-the-number.dll
