@@ -9,7 +9,7 @@ namespace CSP001_guess_the_number
             Console.WriteLine("Antes de empezar, ingresa tu nombre:");
             string? playerName = Console.ReadLine();
 
-            if (playerName != null)
+            if (!string.IsNullOrEmpty(playerName))
             {
                 Game game = new Game(playerName);
                 game.Play();
