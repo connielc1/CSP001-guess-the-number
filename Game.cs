@@ -27,7 +27,13 @@ namespace CSP001_guess_the_number
 
             while (true)
             {
-                string input = Console.ReadLine() ?? "";
+                string? input = Console.ReadLine();
+                if (input == null)
+                {
+                    Console.WriteLine("Error: Se ha producido un problema al leer la entrada. Reinicia el programa e intenta de nuevo.");
+                    return;
+                }
+
                 if (!int.TryParse(input, out int guess))
                 {
                     Console.WriteLine("Por favor, ingresa un número válido:");
@@ -72,9 +78,9 @@ namespace CSP001_guess_the_number
 
         private bool CheckGuess(int guess, int targetNumber)
         {
-            player.LastGuess = guess;
+            player.SetLastGuess(guess);
 
-            if (player.LastGuess == targetNumber)
+            if (player.GetLastGuess() == targetNumber)
             {
                 return true;
             }
