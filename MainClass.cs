@@ -7,12 +7,12 @@ namespace CSP001_guess_the_number
         public static void Main(string[] args)
         {
             Console.WriteLine("Antes de empezar, ingresa tu nombre:");
-            string? playerName = Console.ReadLine();
+            string playerName = Console.ReadLine() ?? "";
 
             if (!string.IsNullOrEmpty(playerName))
             {
                 Game game = new Game(playerName);
-                game.Play();
+                game.Start();
             }
             else
             {

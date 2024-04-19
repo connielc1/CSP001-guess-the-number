@@ -9,7 +9,7 @@ namespace CSP001_guess_the_number
 
         public Player(string name)
         {
-            Name = name ?? throw new ArgumentException("El nombre no puede ser nulo.");
+            Name = name ?? throw new ArgumentException("El nombre no puede ser nulo.", nameof(name));
             LastGuess = 0;
         }
     }
