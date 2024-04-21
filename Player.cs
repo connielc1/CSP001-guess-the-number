@@ -1,26 +1,67 @@
 using System;
+using System.Collections.Generic;
 
 namespace CSP001_guess_the_number
 {
-    class Player
+    abstract class Player
     {
         public string Name { get; }
-        private int lastGuess;
+        protected List<int> guesses;
 
-        public Player(string name)
+        protected Player(string name)
         {
-            Name = name ?? throw new ArgumentException("El nombre no puede ser nulo.", nameof(name));
-            lastGuess = 0;
+            Name = name ?? throw new ArgumentNullException(nameof(name), "El nombre no puede ser nulo.");
+            guesses = new List<int>();
         }
 
-        public int GetLastGuess()
+        public abstract int MakeGuess();
+        
+        public void AddGuess(int guess)
         {
-            return lastGuess;
+            guesses.Add(guess);
         }
 
-        public void SetLastGuess(int guess)
+        public List<int> GetGuesses()
         {
-            lastGuess = guess;
+            return guesses;
+        }
+    }
+
+    class HumanPlayer : Player
+    {
+        public HumanPlayer(string name) : base(name)
+        {
+        }
+
+        public override int MakeGuess()
+        {
+            Console.WriteLine("Ingresa tu número:");
+            string input = Console.ReadLine() ?? "";
+
+            if (!int.TryParse(input, out int guess))
+            {
+                Console.WriteLine("Por favor, ingresa un número válido:");
+                return MakeGuess();
+            }
+
+            return guess;
+        }
+    }
+
+    class AIPlayer : Player
+    {
+        private readonly Random random;
+
+        public AIPlayer(string name) : base(name)
+        {
+            random = new Random();
+        }
+
+        public override int MakeGuess()
+        {
+            int guess = random.Next(1, 101);
+            AddGuess(guess);
+            return guess;
         }
     }
 }
