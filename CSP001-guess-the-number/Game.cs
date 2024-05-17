@@ -2,7 +2,7 @@
 
 namespace CSP001_guess_the_number
 {
-    class Game
+    public class Game
     {
         private readonly HumanPlayer _humanPlayer;
         private readonly AIPlayer _AIPlayer;
@@ -50,12 +50,12 @@ namespace CSP001_guess_the_number
             }
         }
 
-        private int RandomNumberGenerator()
+        public int RandomNumberGenerator()
         {
             return new Random().Next(1, 101);
         }
 
-        private bool CheckGuess(int guess, int targetNumber)
+        public bool CheckGuess(int guess, int targetNumber)
         {
             return guess == targetNumber;
         }
